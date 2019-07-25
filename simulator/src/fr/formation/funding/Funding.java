@@ -75,6 +75,13 @@ public class Funding {
 	public void setInsuranceRates(double insuranceRates) {
 		this.insuranceRates = insuranceRates;
 	}
+
+	@Override
+	public String toString() {
+		return "Funding [amount=" + amount + ", typeOfLoan=" + typeOfLoan + ", dateOfRefunds=" + dateOfRefunds
+				+ ", duration=" + duration + ", interestRates=" + interestRates + ", insuranceRates=" + insuranceRates
+				+ "]";
+	}
 	
 	
 }

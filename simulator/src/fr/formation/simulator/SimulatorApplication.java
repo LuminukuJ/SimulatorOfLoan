@@ -37,7 +37,8 @@ public class SimulatorApplication {
 	
 		
 		Funding funding = new Funding(amount, typeOfLoan, dateOfRefunds, duration, interestRates, insuranceRates);
-	
+		
+		
 		
 		
 	}
