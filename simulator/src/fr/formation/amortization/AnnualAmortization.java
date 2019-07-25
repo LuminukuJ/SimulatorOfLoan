@@ -1,8 +1,12 @@
 package fr.formation.amortization;
 
+import fr.formation.funding.Funding;
+
 public class AnnualAmortization {
 
 
+	private Funding funding;
+	
 	private int year;
 	private double capital;
 	private double interests;
